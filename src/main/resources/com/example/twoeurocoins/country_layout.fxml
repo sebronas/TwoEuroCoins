@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListCell?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<fx:root prefHeight="20.0" prefWidth="200.0" type="javafx.scene.control.ListCell" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <graphic>
+      <AnchorPane prefHeight="20.0" prefWidth="200.0">
+         <children>
+            <ImageView fx:id="countryFlag" fitHeight="20.0" fitWidth="30.0" layoutX="6.0" pickOnBounds="true" preserveRatio="true" />
+            <Label fx:id="countryName" layoutX="55.0" layoutY="1.0" prefHeight="18.0" prefWidth="134.0" />
+         </children>
+      </AnchorPane>
+   </graphic>
+
+</fx:root>
